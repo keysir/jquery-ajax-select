@@ -5,7 +5,8 @@
 
 ###初始化方法
 
-> $("#deptId").ajaxSelect({
+```
+$("#deptId").ajaxSelect({
         url: '/dept/list',
         queryParams: {limit: 1000, offset: 0},//请求参数
         defOption: {
@@ -18,3 +19,4 @@
             value: 'id'
         }
     })
+ ```
