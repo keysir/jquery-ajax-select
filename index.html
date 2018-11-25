@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+ <select id="deptId" name="deptId" class="form-control" ></select>
+
+ <script type="text/javascript">
+ $(function(){
+ 	 $("#deptId").ajaxSelect({
+        url: '/dept/list',
+        queryParams: {limit: 1000, offset: 0},//请求参数
+        defOption: {
+            name: '默认值',
+            value: 0
+        },
+        callbackData: {//返回值格式化 
+            list: 'rows',
+            name: 'name',
+            value: 'id'
+        }
+    })
+ })
+
+ </script>		
+ <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="js/jquery-ajax-select.js"></script>
+</body>
+</html>
+
