@@ -33,10 +33,16 @@ $("#deptId").ajaxSelect({
 > 五、selected 默认选中的 value  也可以设置 select 的 value 属性 这里会自动取值选中
 >
 > # 方法
-> 一、getSelected 获取选中的值
+> 一、getSelected 获取选中的值 
+```
+$("#deptId").ajaxSelect("getSelected");
+```
 >
 > 二、setSelected 设置选中的选项
 >
+```
+$("#deptId").ajaxSelect("setSelected",1);
+```
 
 
 
