@@ -20,24 +20,36 @@ $("#deptId").ajaxSelect({
         }
     })
  ```
-> ###初始化方法 参数
-> 1 
->
-> 2 queryParams 
->
-> 3 defOption
->
-> 4 callbackData //返回值格式化 请求数据格式 {默认为 {rows:[{name:"aaaa",value:1},{name:"bbb",value:2}]}}]
 
-> # 初始化方法-参数
+> # 参数
 > 一、url 访问的url
 >
 > 二、queryParams 请求参数 默认：{}
 >
 > 三、defOption 默认选项 比如 默认  {name: '请选择', value: 0}
 >
-> 四、callbackData ajax 返回值格式默认格式 {rows：[{name:"aaaaa",value:1}]}
+> 四、callbackData ajax 返回值格式默认格式 {rows：[{name:"aaaaa",value:1},{name:"bbbb",value:2}]} 
 >
-> 五、提供了多条件查询的页面和相关接口
+> 五、selected 默认选中的 value  也可以设置 select 的 value 属性 这里会自动取值选中
 >
-> 六、提供了查询结果匹配高亮显示，分页查询等功能
+> # 方法
+> 一、getSelected 获取选中的值
+>
+> 二、setSelected 设置选中的选项
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
