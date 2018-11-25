@@ -3,7 +3,7 @@
 没有UI侵入 只依赖jQuery
 提供默认值选择 
 
-###初始化方法
+## 初始化方法
 
 ```
 $("#deptId").ajaxSelect({
@@ -21,7 +21,8 @@ $("#deptId").ajaxSelect({
     })
  ```
 
-> # 参数
+## 参数
+
 > 一、url 访问的url
 >
 > 二、queryParams 请求参数 默认：{}
@@ -32,7 +33,9 @@ $("#deptId").ajaxSelect({
 >
 > 五、selected 默认选中的 value  也可以设置 select 的 value 属性 这里会自动取值选中
 >
-> # 方法
+
+## 方法
+
 > 一、getSelected 获取选中的值 
 ```
 $("#deptId").ajaxSelect("getSelected");
@@ -43,19 +46,3 @@ $("#deptId").ajaxSelect("getSelected");
 ```
 $("#deptId").ajaxSelect("setSelected",1);
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
